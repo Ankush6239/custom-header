@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #im2 {
+            float: right;
+            padding-top: -20px;
+            margin-top: -65px;
+            /* display: none; */
+        }
+
+        img {
+            width: 60px;
+            height: 60px;
+            float: left;
+            margin: 10px 10px 10px 10px;
+
+
+        }
+
+        .nav {
+            width: 100%;
+            background-color: rgb(181, 109, 109);
+            border-radius: 10px;
+            height: 100px;
+        }
+
+        #ul {
+            list-style: none;
+            padding-top: 18px;
+            font-size: 25px;
+            font-weight: bolder;
+            color: yellowgreen;
+            float: right;
+            padding-right: 10px;
+        }
+
+        #li {
+            display: inline;
+            padding-left: 20px;
+        }
+
+
+
+        #ul2 {
+            list-style: none;
+            font-size: 25px;
+            font-weight: bold;
+            color: yellowgreen;
+            text-align: center;
+            padding-bottom: 2;
+        }
+
+
+
+        #nav3 {
+            height: auto;
+            width: auto;
+        }
+
+        li {
+            padding: auto;
+            margin: auto;
+        }
+
+        li:hover {
+            background-color: green;
+            color: white;
+        }
+        .nav2 {
+                margin-top: -15px;
+                height:auto;
+                display: none;
+                background-color: lightcoral;
+            }
+
+        #im2:hover.nav2 {
+            display: block;
+        }
+
+        #im2 {
+            display: none;
+        }
+
+
+
+
+        @media screen and (min-width:320px) and (max-width:767px) {
+            #im2 {
+                display: block;
+            }
+
+            #ul {
+                display: none;
+            }
+
+            #im2 {
+                margin-top: 21px;
+            }
+
+          
+
+
+            .nav:hover .nav2 {
+                display: block !important;
+            }
+            .nav {
+                cursor: pointer;
+            }
+
+        }
+
+        /* 
+        
+        @media only screen and (max-width: 750px) {
+
+            
+
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <nav>
+            <img src="preview.jpg" alt="logo">
+            <ul id="ul">
+                <li id="li">
+                    Home
+                </li>
+                <li id="li">
+                    About
+                </li>
+                <li id="li">
+                    Contanct us
+                </li>
+                <li id="li">
+                    News
+                </li>
+            </ul>
+            <img src="/html/660376.png" alt="" id="im2">
+        </nav>
+        <div class="nav2">
+            <nav id="nav3">
+                <ul id="ul2">
+                    <li>
+                        Home
+                    </li>
+                    <li>
+                        About
+                    </li>
+                    <li>
+                        Contact
+                    </li>
+                    <li>
+                        News
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</body>
+
+</html>

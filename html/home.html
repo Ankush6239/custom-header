@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    /* div > p {
+  background-color: yellow;
+}
+a :link{
+    color: red;
+}
+a :hover {
+    color: black;
+}
+a :visited{
+    color: blue;
+} */
+    a.highlight:hover {
+      color: orangered;
+    }
+
+    #p2.highlight:hover {
+      color: blue;
+    }
+
+    .dropdown {
+      background-color: aqua;
+      width: 500px;
+      margin: auto;
+    }
+
+    #ul {
+      list-style: none;
+    }
+
+    #li {
+      font-size: 40px;
+      font-weight: bold;
+      text-align: center;
+      padding: 10px;
+      border-radius: 10px;
+
+    }
+
+    #li:hover {
+      background-color: red;
+      color: white;
+      border-radius: 10px;
+      display: block;
+    }
+
+    .container {
+      background-color: azure;
+    }
+
+    #ul1 {
+      list-style: none;
+      background-color: #f1f1f1;
+      width: 15%;
+      height: 100%;
+      overflow: hidden;
+      position: fixed;
+    }
+
+    #li2 {
+      font-size: 30px;
+      font-weight: bold;
+      padding: 10px;
+
+    }
+
+    #li2:hover {
+      background-color: #046838;
+      color: aliceblue;
+    }
+
+    #dic {
+      margin-left: 20%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>Child Selector</h2>
+
+  <p>The child selector (>) selects all elements that are the children of a specified element.</p>
+
+  <div>
+    <p>Paragraph 1 in the div.</p>
+    <p>Paragraph 2 in the div.</p>
+    <section>
+      <!-- not Child but Descendant -->
+      <p>Paragraph 3 in the div (inside a section element).</p>
+    </section>
+    <p>Paragraph 4 in the div.</p>
+  </div>
+
+  <p>Paragraph 5. Not in a div.</p>
+  <p>Paragraph 6. Not in a div.</p>
+  <a href="/">hello</a>
+  <p id="p2"> <a href="/">hello</a></p>
+  <div class="dropdown">
+    <nav>
+      <ul id="ul">
+        <li id="li">Home</li>
+        <li id="li">about</li>
+        <li id="li">contact us</li>
+        <li id="li">share us</li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container">
+    <nav>
+      <ul id="ul1">
+        <li id="li2">Home</li>
+        <li id="li2">About</li>
+        <li id="li2">News</li>
+        <li id="li2">Contact us</li>
+      </ul>
+    </nav>
+    <div id="dic">
+      <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt accusantium reiciendis voluptatum voluptate
+        officiis impedit veritatis necessitatibus optio eaque rem natus possimus laboriosam perspiciatis ratione nobis
+        sapiente dolore, repellendus enim.</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita debitis cum dolore dicta asperiores
+        exercitationem eius cumque, illum pariatur ipsam nesciunt facere. Veniam, natus magni! Ab, ad totam odit eveniet
+        reiciendis iusto maiores temporibus voluptas voluptatum amet culpa quod quaerat ipsa illum, commodi nobis
+        corrupti eos ullam minima voluptates? Doloribus, necessitatibus. Voluptates, sapiente cumque! Culpa, saepe
+        quaerat. Itaque quo aut explicabo dicta facilis, similique aliquid blanditiis fugit autem accusamus assumenda
+        pariatur obcaecati maxime quasi saepe dolorum tempora eveniet tenetur animi quisquam. Nulla est, earum voluptas
+        reiciendis obcaecati repudiandae error illo velit quia veniam recusandae delectus asperiores inventore.
+        Praesentium facilis libero provident hic, ut totam recusandae nesciunt molestias vero qui! Deleniti, eius nihil
+        deserunt quas placeat quam, praesentium distinctio expedita vel nam libero rem sit dolores ex eaque hic!
+        Expedita, praesentium. Laborum, at inventore expedita quis non facilis et ex id autem, atque fuga velit
+        assumenda? Dolorem delectus sint doloribus temporibus corporis dignissimos, repellendus, tempora tempore
+        accusantium excepturi cum optio natus sapiente quod ex fugit obcaecati error id architecto laudantium odit! Quod
+        praesentium officiis nihil dolorum odit magnam consectetur autem corporis ex expedita? Nesciunt vero dolor
+        delectus corrupti fuga harum, dolorum necessitatibus quis, deserunt accusamus quidem adipisci impedit rerum
+        repudiandae aut accusantium architecto cum facilis eum aliquam soluta. Porro sint beatae molestias? Itaque rerum
+        eos neque impedit quam atque a odio suscipit! Nesciunt ex eos dolore tempore, eius, numquam distinctio ullam
+        itaque reprehenderit quas enim provident unde voluptatum culpa est, nemo repellendus mollitia? Dicta maxime
+        distinctio eos? Ad ab quasi praesentium, maiores autem asperiores commodi error harum? Voluptas, maiores! Quas
+        iure culpa quae excepturi! Pariatur odio doloribus perspiciatis odit facere velit beatae debitis! Dolore
+        assumenda asperiores cum ex accusamus fugit facere a quidem! Ullam iure iusto alias dolor commodi, dolorum
+        fugiat! Reiciendis temporibus architecto, voluptatum animi nostrum ut! Cumque vel architecto beatae debitis iure
+        aliquid adipisci repudiandae mollitia aperiam unde tempora impedit provident, sapiente possimus neque nulla
+        ipsam dolorem inventore, quas libero quo odio ex totam recusandae. Officiis animi nisi unde, aut autem commodi
+        explicabo qui iure! Facilis, voluptatem. Nostrum consectetur minima assumenda modi nam nemo, doloremque id sint
+        soluta accusantium numquam itaque facere a culpa illo commodi eveniet mollitia possimus omnis expedita
+        perferendis dolor sapiente. Quo harum earum amet aperiam fugit nesciunt perferendis quis odit iste porro
+        laudantium et velit nam doloremque saepe veniam vero quibusdam, corrupti molestias optio consectetur sequi
+        libero debitis atque? Blanditiis animi expedita error dolorem maiores.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos fugiat expedita rem dicta neque consequuntur ea
+        temporibus quos, laudantium nemo iure numquam natus placeat minima accusamus, atque, libero nihil tempore.
+        Itaque nemo numquam rem iure! Quos quo velit exercitationem neque sint nihil sit voluptate quam, natus aperiam
+        doloremque perferendis unde sed fugiat aut, reiciendis rerum in asperiores. Repellat fuga, iusto qui expedita
+        quae ad laborum veritatis ipsum, iure, perspiciatis sapiente voluptatum? Odit voluptatibus ipsum obcaecati optio
+        minima nam odio illo ex quidem adipisci distinctio nobis ea reprehenderit, esse itaque quae fugit quia nesciunt
+        facilis expedita id eveniet exercitationem nihil molestiae. Nam eligendi nobis, sit cumque odio quaerat quae
+        quis maiores ducimus asperiores nulla inventore id iure ut omnis doloremque! Ut, provident nesciunt asperiores a
+        beatae neque corrupti eligendi doloribus quos reprehenderit natus impedit, soluta fuga quae. Quasi minima nemo
+        aliquam corrupti repellat, explicabo temporibus ex veritatis sapiente inventore error. Dignissimos magnam modi
+        assumenda, ipsam cumque dolorem labore! Earum nobis quod exercitationem labore voluptatum tenetur qui recusandae
+        quaerat dicta ipsam rem assumenda quia in, nisi sunt commodi atque cumque facere consequuntur necessitatibus
+        minima est itaque voluptatem. Magnam minus iure illo iste ipsum ut aperiam culpa facere nisi, ipsam quaerat
+        aspernatur est quos reprehenderit numquam facilis suscipit quidem sequi tenetur. Eaque necessitatibus inventore,
+        magnam molestias quibusdam eum a repellendus. Ad fugiat sunt delectus numquam animi, quis rerum possimus
+        molestias aliquam odio consectetur pariatur, nesciunt ut eum quasi labore illum distinctio quod obcaecati
+        assumenda qui. Nemo quo nisi consectetur exercitationem? Sed consectetur soluta autem eveniet, nisi totam
+        recusandae voluptatum amet laborum ducimus a voluptas deserunt dolor possimus nemo enim porro officiis commodi
+        officia fugit aliquid vitae assumenda temporibus corporis? Quibusdam, praesentium? Recusandae sunt nobis fugiat
+        tenetur ad excepturi, minima illum quidem modi temporibus quisquam inventore voluptas consectetur delectus
+        dolorem ullam maxime necessitatibus aliquam!</p>
+    </div>
+  </div>
+  <div class="dowpdown">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque maxime numquam, quo id consequatur voluptas aliquam qui sit aliquid reprehenderit perspiciatis cupiditate consequuntur, quia inventore ipsum, tenetur officia quidem velit?</p>
+  <p>hover me</p>
+  
+  </div>
+</body>
+
+</html>
